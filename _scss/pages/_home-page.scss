@@ -6,6 +6,10 @@
   background-position: right;
 }
 
+.hero-bg {
+  background-image: linear-gradient(to right, #F58286, #F8AB96);
+}
+
 .trace-item {
   transition: all 200ms ease;
   &:hover {
