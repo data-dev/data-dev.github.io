@@ -9,10 +9,10 @@ permalink: /
   <div class="container h-100">
     <div class="row h-100 d-flex align-items-center py-6">
       <div class="col-lg-6 align-self-center">
-        <img src="/img/DataTracer-TopLogo.svg" alt="" width="260" height="85">
+        <img src="{{'/img/DataTracer-TopLogo.svg' | relative_url }}" alt="" width="260" height="85">
       </div>
       <div class="col-lg-6 text-center align-self-center">
-        <img src="/img/Banner-separated-Graphics.png" alt="" class="img-fluid">
+        <img src="{{'/img/Banner-separated-Graphics.png' | relative_url}}" alt="" class="img-fluid">
       </div>
     </div>
   </div>
@@ -78,10 +78,10 @@ permalink: /
                 <div class="d-flex flex-column justify-content-between h-100">
                 	<div>
                     <h3 class="text-danger">{{ item.name }}</h3>
-                    	<p class="text-secondary">{{ item.text }}</p>
+                    <p class="text-secondary">{{ item.text }}</p>
                   </div>
                 	<div class="d-flex align-items-center flex-grow-1">
-                    <img class="w-75" src="{{ 'item.image' | relative_url }}" alt="{{ item.name }}">
+                    <img class="w-75" src="{{ item.image | relative_url }}" alt="{{ item.name }}">
                   </div>
                 </div>
               </div>
@@ -136,7 +136,7 @@ permalink: /
           <div class="card h-100 rounded-lg">
             <div class="card-body">
               <div>
-                <img src="{{ item.logo }}" alt="{{ item.name }}" style="width: 40px; height: 40px;">                
+                <img src="{{ item.logo | relative_url }}" alt="{{ item.name }}" style="width: 40px; height: 40px;">                
               </div>
               <h3 class="h4 mt-3 mb-4">{{ item.name }}</h3>
               <p>{{ item.text }}</p>
