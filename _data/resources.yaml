@@ -1,11 +1,11 @@
 - name: Papers
-  url: "/resources/"
+  url: "/resources/#papers"
   
 - name: Community
-  url: ""
+  url: "/resources/#community"
 
 - name: Videos 
-  url: ""
+  url: "/resources/#videos"
 
 - name: Tutorials 
   url: "https://github.com/data-dev/DataTracer/tree/master/tutorials"
