@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang }}">
+<html lang="en-US">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,11 +10,11 @@
     <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
   
     <meta name="robots" content="noindex" />
-    
-    <link rel="stylesheet" href="/css/main.css">
+
+    <link rel="stylesheet" href="{{'/css/main.css' | relative_url }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-    <link rel="icon" type="image/png" href="/img/datatracer-favicon.png"/>
-    <link rel="apple-touch-icon" href="/img/datatracer-icon@3x.png">
+    <link rel="icon" type="image/png" href="{{'/img/datatracer-favicon.png' | relative_url}}"/>
+    <link rel="apple-touch-icon" href="{{'/img/datatracer-icon@3x.png' | relative_url}}">
   </head>
   <body>
     {% include nav.html %}
@@ -22,7 +22,7 @@
     {% comment %}
     {% include footer.html %}
     {% endcomment %}
-    <script src="js/dist/app.bundle.js"></script>
+    <script src="{{'js/dist/app.bundle.js' | relative_url }}"></script>
     <script src="{{'js/dist/main.bundle.js' | relative_url }}"></script>
   </body>
 </html>

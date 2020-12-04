@@ -8,11 +8,7 @@
   
   
     <url>
-      <loc>https://johannbelau.github.io/</loc>
-        <xhtml:link rel="alternate" hreflang="" 
-                    href="https://johannbelau.github.io/" />
-      
-      <changefreq>monthly</changefreq>
+      <loc>https://dzinemon.github.io/</loc>
     </url>
   
   
@@ -20,11 +16,7 @@
   
   
     <url>
-      <loc>https://johannbelau.github.io/assets/css/style.css</loc>
-        <xhtml:link rel="alternate" hreflang="" 
-                    href="https://johannbelau.github.io/assets/css/style.css" />
-      
-      <changefreq>monthly</changefreq>
+      <loc>https://dzinemon.github.io/assets/css/style.css</loc>
     </url>
   
   
