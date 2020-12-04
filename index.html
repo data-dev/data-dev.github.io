@@ -46,11 +46,19 @@ permalink: /
       {% for item in site.data.resources %}
 
       <div class="col-xl-2 col-md-3 col-sm-4 col-6 mb-4">
-        <a href="{{ item.url }}" class="embed-responsive embed-responsive-1by1 rounded-lg bg-secondary overflow-hidden">
-          <div class="embed-responsive-item d-flex justify-content-center">
-            <p class="h3 font-weight-normal text-white text-center align-self-center px-3">{{ item.name }}</p>
+        {% if item.url != '' %}
+          <a href="{{ item.url }}" class="embed-responsive embed-responsive-1by1 rounded-lg bg-secondary overflow-hidden">
+            <div class="embed-responsive-item d-flex justify-content-center">
+              <p class="h3 font-weight-normal text-white text-center align-self-center px-3">{{ item.name }}</p>
+            </div>
+          </a>
+        {% else %}
+          <div class="embed-responsive embed-responsive-1by1 rounded-lg bg-secondary overflow-hidden">
+            <div class="embed-responsive-item d-flex justify-content-center">
+              <p class="h3 font-weight-normal text-white text-center align-self-center px-3">{{ item.name }}</p>
+            </div>
           </div>
-        </a>
+        {% endif %}
       </div>
         
       {% endfor %}
@@ -72,22 +80,39 @@ permalink: /
       {% for item in site.data.trace %}
         <div class="col-xl-4 col-md-6 mb-4">
 
-          <a href="{{ item.url }}" class="embed-responsive embed-responsive-1by1 rounded-lg overflow-hidden trace-item">
-            <div class="embed-responsive-item">
-              <div class="position-absolute is-overlay border border-secondary rounded-lg p-4">
-                <div class="d-flex flex-column justify-content-between h-100">
-                	<div>
-                    <h3 class="text-danger">{{ item.name }}</h3>
-                    <p class="text-secondary">{{ item.text }}</p>
+          {% if item.url != '' %}
+            <a href="{{ item.url }}" class="embed-responsive embed-responsive-1by1 rounded-lg overflow-hidden trace-item">
+              <div class="embed-responsive-item">
+                <div class="position-absolute is-overlay border border-secondary rounded-lg p-4">
+                  <div class="d-flex flex-column justify-content-between h-100">
+                    <div>
+                      <h3 class="text-danger">{{ item.name }}</h3>
+                      <p class="text-secondary">{{ item.text }}</p>
+                    </div>
+                    <div class="d-flex align-items-center flex-grow-1">
+                      <img class="w-75" src="{{ item.image | relative_url }}" alt="{{ item.name }}">
+                    </div>
                   </div>
-                	<div class="d-flex align-items-center flex-grow-1">
-                    <img class="w-75" src="{{ item.image | relative_url }}" alt="{{ item.name }}">
+                </div>
+              </div>
+            </a>
+          {% else %}
+            <div class="embed-responsive embed-responsive-1by1 rounded-lg overflow-hidden trace-item">
+              <div class="embed-responsive-item">
+                <div class="position-absolute is-overlay border border-secondary rounded-lg p-4">
+                  <div class="d-flex flex-column justify-content-between h-100">
+                    <div>
+                      <h3 class="text-danger">{{ item.name }}</h3>
+                      <p class="text-secondary">{{ item.text }}</p>
+                    </div>
+                    <div class="d-flex align-items-center flex-grow-1">
+                      <img class="w-75" src="{{ item.image | relative_url }}" alt="{{ item.name }}">
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </a>
-
+          {% endif %}
         </div>
         {% endfor %}
     </div>
@@ -106,13 +131,20 @@ permalink: /
     </div>
     <div class="row justify-content-center justify-content-sm-start">
       {% for item in site.data.concepts %}
-
       <div class="col-xl-2 col-md-3 col-sm-4 col-xs-6 col-8 mb-4">
-        <a href="{{ item.url }}" class="embed-responsive embed-responsive-1by1 rounded-lg bg-secondary overflow-hidden">
-          <div class="embed-responsive-item d-flex justify-content-start">
-            <p class="text-white h5 mb-0 font-weight-normal align-self-center px-3">{{ item.name }}</p>
+        {% if item.url != '' %}
+          <a href="{{ item.url }}" class="embed-responsive embed-responsive-1by1 rounded-lg bg-secondary overflow-hidden">
+            <div class="embed-responsive-item d-flex justify-content-start">
+              <p class="text-white h5 mb-0 font-weight-normal align-self-center px-3">{{ item.name }}</p>
+            </div>
+          </a>
+          {% else %}
+          <div class="embed-responsive embed-responsive-1by1 rounded-lg bg-secondary overflow-hidden">
+            <div class="embed-responsive-item d-flex justify-content-start">
+              <p class="text-white h5 mb-0 font-weight-normal align-self-center px-3">{{ item.name }}</p>
+            </div>
           </div>
-        </a>
+        {% endif %}  
       </div>
         
       {% endfor %}
@@ -140,7 +172,9 @@ permalink: /
               </div>
               <h3 class="h4 mt-3 mb-4">{{ item.name }}</h3>
               <p>{{ item.text }}</p>
-              <p>topics</p>
+              <p>
+                <!-- https://github.com/topics/ -->
+              </p>
               <p>
                 {% for badge in item.badges %}
                   <a href="{{badge.url}}" rel="nofollow" class="hoverable-i">
@@ -169,12 +203,3 @@ permalink: /
   </div>
 </section>
 
-<section class="bg-secondary text-white text-center py-2 ">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <p class="mb-0">Copyright © {{ 'now' | date: "%Y" }} Data to AI Laboratory, Massachusetts Institute of Technology</p>
-      </div>
-    </div>
-  </div>
-</section>

@@ -1,4 +1,8 @@
 - name: What is data lineage? 
+  url: ""
 - name: How do you store and interact with metadata about your data? 
+  url: ""
 - name: How do you use machine learning to find data lineage? 
+  url: ""
 - name: How do you evaluate ML based lineage techniques?
+  url: ""
