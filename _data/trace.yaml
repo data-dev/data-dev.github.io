@@ -1,0 +1,24 @@
+- name: Detect Keys
+  text: "Primary Keys, Foreign Keys."
+  image: "/img/Detect Keys.svg"
+  url: 
+
+- name: Map Column Lineage 
+  text: "Identify which columns led to this column."
+  image: "/img/Map Column Lineage.svg"
+  url: 
+
+- name: Metadata
+  text: "Capture all the metadata about your data in a structured way"
+  image: "/img/Metadata.svg"
+  url: 
+
+- name: Create datasets
+  text: "Create benchmarking datasets for evaluating ML based lineage techniques."
+  image: "/img/CreateDataSets.svg"
+  url: 
+
+- name: Benchmarking
+  text: "A comprehensive benchmarking framework to assess different ML based lineage techniques."
+  image: "/img/"
+  url: 

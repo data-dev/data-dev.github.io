@@ -1,0 +1,22 @@
+.hero {
+  background-image: linear-gradient(to right, #F58286, #F8AB96);
+  // background-image: url(/img/banner-01.png);
+  height: 670px;
+  background-size: cover;
+  background-position: right;
+}
+
+.trace-item {
+  transition: all 200ms ease;
+  &:hover {
+    background-color: white;
+  }
+}
+
+.hoverable-i {
+  transition: all 200ms ease;
+  &:hover {
+    text-decoration: none;
+    opacity: 0.8;
+  }
+}

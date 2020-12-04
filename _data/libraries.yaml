@@ -1,0 +1,54 @@
+
+- name: Tracer 
+  logo: '/img/Libraries-Cards-TracerLogo.svg'
+  text: 'Data Lineage Tracing Library.'
+  github: 'https://github.com/data-dev/DataTracer'
+  badges:
+    - name: Development Status
+      image: 'https://img.shields.io/badge/Development%20Status-2%20--%20Pre--Alpha-yellow'
+      url: 'https://pypi.org/search/?c=Development+Status+%3A%3A+2+-+Pre-Alpha'
+    - name: PyPI Shield
+      image: 'https://img.shields.io/pypi/v/datatracer.svg'
+      url: 'https://pypi.python.org/pypi/datatracer'
+    - name: 'Downloads'
+      image: 'https://pepy.tech/badge/datatracer'
+      url: 'https://pepy.tech/project/datatracer'
+    - name: 'Run Tests'
+      image: 'https://github.com/data-dev/DataTracer/workflows/Run%20Tests/badge.svg'
+      url: 'https://github.com/data-dev/DataTracer/actions'
+
+
+- name: DataReactor 
+  logo: '/img/Libraries-Cards-ReacterLogo.svg'
+  text: 'Augmenting relational datasets by generating derived columns with known lineage.'
+  github: 'https://github.com/data-dev/DataReactor'
+  badges: 
+    - name: 'Github Actions'
+      image: 'https://img.shields.io/github/workflow/status/data-dev/DataReactor/Run%20Tests'
+      url: 'https://github.com/data-dev/DataReactor/actions'
+      
+    - name: 'Code Coverage'
+      image: 'https://codecov.io/gh/data-dev/DataReactor/branch/master/graph/badge.svg'
+      url: 'https://github.com/data-dev/DataReactor/pulse'
+
+    - name: 'Commit Activity'
+      image: 'https://img.shields.io/github/commit-activity/m/data-dev/DataReactor'
+      url: 'https://github.com/data-dev/DataReactor/pulse'
+
+- name: Metadata  
+  logo: '/img/Libraries-Cards-MetadataLogo.svg'
+  text: 'Organized representation and validation of metadata.'
+  github: 'https://github.com/data-dev/MetaData'
+  badges:
+    - name: Development Status
+      image: 'https://img.shields.io/badge/Development%20Status-2%20--%20Pre--Alpha-yellow'
+      url: 'https://pypi.org/search/?c=Development+Status+%3A%3A+2+-+Pre-Alpha'
+    - name: PyPI Shield
+      image: 'https://img.shields.io/pypi/v/metad.svg'
+      url: 'https://pypi.python.org/pypi/metad'
+    - name: Github Actions Shield
+      image: 'https://img.shields.io/github/workflow/status/data-dev/MetaData/Run%20Tests'
+      url: 'https://github.com/data-dev/MetaData/actions'
+    - name: Coverage Status
+      image: 'https://codecov.io/gh/data-dev/MetaData/branch/master/graph/badge.svg'
+      url: 'https://codecov.io/gh/data-dev/MetaData'

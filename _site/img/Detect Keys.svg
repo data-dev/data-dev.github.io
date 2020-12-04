@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 282.8 209.6" style="enable-background:new 0 0 282.8 209.6;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.65;}
+	.st1{fill:none;stroke:#7D4D4B;stroke-width:0.8686;stroke-miterlimit:10;}
+	.st2{fill:#7D4D4B;}
+	.st3{opacity:0.83;fill:#828D9E;enable-background:new    ;}
+	.st4{fill:#FFFFFF;}
+	.st5{font-family:'HelveticaNeue';}
+	.st6{font-size:12.4083px;}
+	.st7{fill:#1B345D;}
+	.st8{font-size:11.1674px;}
+	.st9{font-family:'Inconsolata-Regular';}
+	.st10{font-size:12.7103px;}
+	.st11{fill:none;stroke:#19335D;stroke-width:0.834;stroke-miterlimit:10;}
+	.st12{fill:none;stroke:#19335D;stroke-width:1.8612;stroke-miterlimit:10;}
+	.st13{fill:none;stroke:#19335D;stroke-width:0.6204;stroke-miterlimit:10;}
+	.st14{fill:none;stroke:#19335D;stroke-width:0.3722;stroke-miterlimit:10;}
+</style>
+<g class="st0">
+	<g>
+		<g>
+			<line class="st1" x1="58.7" y1="97.3" x2="58.7" y2="107.5"/>
+			<g>
+				<polygon class="st2" points="53.1,105.8 58.7,115.6 64.4,105.8 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<polyline class="st1" points="128.9,54.5 133.1,54.5 133.1,106.4 139,106.4 			"/>
+			<g>
+				<polygon class="st2" points="137.4,112.1 147.1,106.4 137.4,100.8 				"/>
+			</g>
+		</g>
+	</g>
+	<rect x="0.9" y="1.1" class="st3" width="123.1" height="25.1"/>
+	<g>
+		<text transform="matrix(1 0 0 1 21.888 17.7455)" class="st4 st5 st6">movies2actors</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 11.1987 42.8754)" class="st7 st5 st8">movieid</text>
+		<text transform="matrix(1 0 0 1 13.3987 62.7754)" class="st7 st5 st8">actorid</text>
+		<text transform="matrix(1 0 0 1 6.3987 82.5754)" class="st7 st5 st8">cast_num</text>
+	</g>
+	<text transform="matrix(1 0 0 1 84.4268 42.8754)" class="st7 st9 st10">id</text>
+	<text transform="matrix(1 0 0 1 84.4268 62.7754)" class="st7 st9 st10">id</text>
+	<text transform="matrix(1 0 0 1 81.2491 82.5754)" class="st7 st9 st10">int</text>
+	<rect x="0.5" y="1.1" class="st11" width="123.5" height="88.6"/>
+	<line class="st12" x1="0.9" y1="26.2" x2="124" y2="26.2"/>
+	<line class="st13" x1="60.2" y1="89.9" x2="60.2" y2="26.4"/>
+	<path class="st13" d="M124,69.5"/>
+	<line class="st14" x1="0.5" y1="48.5" x2="124" y2="48.5"/>
+	<line class="st14" x1="0.5" y1="69.5" x2="124" y2="69.5"/>
+	<rect x="152.4" y="40.8" class="st3" width="130.1" height="25.1"/>
+	<g>
+		<text transform="matrix(1 0 0 1 197.684 57.7437)" class="st4 st5 st6">movies</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 166.683 81.6362)" class="st7 st5 st8">movieid</text>
+		<text transform="matrix(1 0 0 1 175.5831 101.9363)" class="st7 st5 st8">year</text>
+		<text transform="matrix(1 0 0 1 164.0831 122.3363)" class="st7 st5 st8">isEnglish</text>
+		<text transform="matrix(1 0 0 1 167.383 142.6362)" class="st7 st5 st8">country</text>
+		<text transform="matrix(1 0 0 1 156.783 163.0363)" class="st7 st5 st8">runningtime</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 237.8337 81.6362)" class="st7 st9 st10">pkey</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 241.0114 101.9363)" class="st7 st9 st10">int</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 237.8335 122.3363)" class="st7 st9 st10">enum</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 228.3009 142.6362)" class="st7 st9 st10">varchar</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 241.0114 163.0363)" class="st7 st9 st10">int</text>
+	</g>
+	<rect x="152" y="41.1" class="st11" width="130.5" height="130.6"/>
+	<line class="st12" x1="152.4" y1="66.2" x2="282.5" y2="66.2"/>
+	<line class="st13" x1="218.7" y1="171.7" x2="218.7" y2="66.4"/>
+	<path class="st13" d="M282.5,109.5"/>
+	<line class="st14" x1="152" y1="88.5" x2="282.5" y2="88.5"/>
+	<line class="st14" x1="152" y1="109.5" x2="282.5" y2="109.5"/>
+	<line class="st14" x1="152" y1="129.9" x2="282.5" y2="129.9"/>
+	<line class="st14" x1="152" y1="150.8" x2="282.5" y2="150.8"/>
+	<rect x="0.9" y="121.3" class="st3" width="123.1" height="25.1"/>
+	<g>
+		<text transform="matrix(1 0 0 1 45.1036 137.9204)" class="st4 st5 st6">actors</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 13.3764 163.0503)" class="st7 st5 st8">actorid</text>
+		<text transform="matrix(1 0 0 1 7.4764 182.9502)" class="st7 st5 st8">a_gender</text>
+		<text transform="matrix(1 0 0 1 8.4764 202.7503)" class="st7 st5 st8">a_quality</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 79.0719 163.0503)" class="st7 st9 st10">pkey</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 79.072 182.9502)" class="st7 st9 st10">enum</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 82.2495 202.7503)" class="st7 st9 st10">int</text>
+	</g>
+	<rect x="0.5" y="121.3" class="st11" width="123.5" height="88.6"/>
+	<line class="st12" x1="0.9" y1="146.4" x2="124" y2="146.4"/>
+	<line class="st13" x1="60.2" y1="210" x2="60.2" y2="146.6"/>
+	<line class="st14" x1="0.5" y1="168.7" x2="124" y2="168.7"/>
+	<line class="st14" x1="0.5" y1="189.6" x2="124" y2="189.6"/>
+</g>
+</svg>

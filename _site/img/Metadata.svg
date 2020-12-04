@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.2.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 263 217.7" style="enable-background:new 0 0 263 217.7;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#514F4F;}
+	.st1{font-family:'Inconsolata-Regular';}
+	.st2{font-size:14.2173px;}
+</style>
+<g>
+	<text transform="matrix(1 0 0 1 9.155273e-05 11.537)"><tspan x="0" y="0" class="st0 st1 st2">{</tspan><tspan x="0" y="15.6" class="st0 st1 st2">  “tables”: [</tspan><tspan x="0" y="31.1" class="st0 st1 st2">    {</tspan><tspan x="0" y="46.7" class="st0 st1 st2">      “name”: “Actions”,</tspan><tspan x="0" y="62.2" class="st0 st1 st2">      “primary_key”: [</tspan><tspan x="0" y="77.8" class="st0 st1 st2">         “GameID”,</tspan><tspan x="0" y="93.3" class="st0 st1 st2">         “PlayerID”</tspan><tspan x="0" y="108.9" class="st0 st1 st2">       ],</tspan><tspan x="0" y="124.5" class="st0 st1 st2">       “fields”: [</tspan><tspan x="0" y="140" class="st0 st1 st2">         {</tspan><tspan x="0" y="155.6" class="st0 st1 st2">           “data_type”: “numerical”,</tspan><tspan x="0" y="171.1" class="st0 st1 st2">           “data_subtype”: “integer”,</tspan><tspan x="0" y="186.7" class="st0 st1 st2">           “name”: “GameID”</tspan><tspan x="0" y="202.2" class="st0 st1 st2">         }</tspan></text>
+</g>
+</svg>

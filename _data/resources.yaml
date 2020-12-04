@@ -1,0 +1,17 @@
+- name: Papers
+  url: "/resources/"
+  
+- name: Community
+  url: ""
+
+- name: Videos 
+  url: ""
+
+- name: Tutorials 
+  url: "https://github.com/data-dev/DataTracer/tree/master/tutorials"
+
+- name: Developer Docs
+  url: ""
+
+- name: User guides
+  url: ""
