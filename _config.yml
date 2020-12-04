@@ -4,8 +4,8 @@ title: The data tracer project aims at identifying metadata using machine learni
 email: info@email.com
 description: > # this means to ignore newlines until "baseurl:"
   The data tracer project aims at identifying metadata using machine learning. Where did the data come from, where did it go, what transforms happened, types, connections, are all what we aspire to identify.
-# baseurl: "/companywebsite/" # the subpath of your site, e.g. /blog/
-url: "https://johannbelau.github.io" # the base hostname & protocol for your site
+baseurl: "/dtracer/" # the subpath of your site, e.g. /blog/
+url: "https://dzinemon.github.io" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 
