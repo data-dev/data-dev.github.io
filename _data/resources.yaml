@@ -1,11 +1,11 @@
 - name: Papers
-  url: "/resources/#papers"
+  url: "https://dzinemon.github.io/dtracer/resources/#papers"
   
 - name: Community
-  url: "/resources/#community"
+  url: "https://dzinemon.github.io/dtracer/resources/#community"
 
 - name: Videos 
-  url: "/resources/#videos"
+  url: "https://dzinemon.github.io/dtracer/resources/#videos"
 
 - name: Tutorials 
   url: "https://github.com/data-dev/DataTracer/tree/master/tutorials"
