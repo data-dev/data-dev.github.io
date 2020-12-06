@@ -44,7 +44,7 @@ $grays: (
 ) !default;
 // fusv-enable
 
-$blue:    #0d6efd !default;
+$blue:    #2C649E !default;
 $indigo:  #6610f2 !default;
 $purple:  #6f42c1 !default;
 $pink:    #d63384 !default;
@@ -81,6 +81,7 @@ $warning:       $yellow !default;
 $danger:        $red !default;
 $light:         $gray-100 !default;
 $dark:          $gray-800 !default;
+$lightblue:     #F2F8FE;
 
 // scss-docs-start theme-colors-map
 $theme-colors: (
@@ -91,6 +92,7 @@ $theme-colors: (
   "warning":    $warning,
   "danger":     $danger,
   "light":      $light,
+  "lightblue":      $lightblue,
   "dark":       $dark
 ) !default;
 
@@ -156,6 +158,7 @@ $navbar-padding-y:                  $spacer;
 
 $lead-font-size: 18px;
 
+$badge-font-weight:             400;
 
 $btn-border-radius:           3px;
 $btn-border-radius-sm:        5px;

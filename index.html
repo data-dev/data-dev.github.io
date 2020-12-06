@@ -172,8 +172,8 @@ permalink: /
               </div>
               <h3 class="h4 mt-3 mb-4">{{ item.name }}</h3>
               <p>{{ item.text }}</p>
-              <p>
-                <!-- https://github.com/topics/ -->
+              <p style="min-height: 1rem;" class="github-topics" data-owner="{{ item.github_repo }}" data-repo="{{ item.github_repo }}">
+                
               </p>
               <p>
                 {% for badge in item.badges %}
@@ -184,17 +184,14 @@ permalink: /
                   </a>
                 {% endfor %}
               </p>
-              
             </div>
             <div class="card-footer border-0 bg-transparent">
-              
-                <a href="{{ item.docs }}" class="mr-4 hoverable-i">
-                  <img width="24" height="24" src="{{'/img/Libraries-Cards-Docs.svg' | relative_url }}" alt="{{ item.name }} Documentation">
-                </a>
-                <a href="{{ item.github }}" class="mr-4 hoverable-i">
-                  <img width="24" height="24" src="{{'/img/Libraries-Cards-Github.svg' | relative_url }}" alt="{{ item.name }} Github repository">
-                </a>
-              
+              <a href="{{ item.docs }}" class="mr-4 hoverable-i">
+                <img width="24" height="24" src="{{'/img/Libraries-Cards-Docs.svg' | relative_url }}" alt="{{ item.name }} Documentation">
+              </a>
+              <a href="{{ item.github }}" class="mr-4 hoverable-i">
+                <img width="24" height="24" src="{{'/img/Libraries-Cards-Github.svg' | relative_url }}" alt="{{ item.name }} Github repository">
+              </a>
             </div>
           </div>
         </div>

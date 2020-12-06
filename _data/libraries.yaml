@@ -3,6 +3,8 @@
   logo: '/img/Libraries-Cards-TracerLogo.svg'
   text: 'Data Lineage Tracing Library.'
   github: 'https://github.com/data-dev/DataTracer'
+  github_owner: data-dev
+  github_repo: DataTracer
   badges:
     - name: Development Status
       image: 'https://img.shields.io/badge/Development%20Status-2%20--%20Pre--Alpha-yellow'
@@ -22,6 +24,8 @@
   logo: '/img/Libraries-Cards-ReacterLogo.svg'
   text: 'Augmenting relational datasets by generating derived columns with known lineage.'
   github: 'https://github.com/data-dev/DataReactor'
+  github_owner: data-dev
+  github_repo: DataReactor
   badges: 
     - name: 'Github Actions'
       image: 'https://img.shields.io/github/workflow/status/data-dev/DataReactor/Run%20Tests'
@@ -39,6 +43,8 @@
   logo: '/img/Libraries-Cards-MetadataLogo.svg'
   text: 'Organized representation and validation of metadata.'
   github: 'https://github.com/data-dev/MetaData'
+  github_owner: data-dev
+  github_repo: MetaData
   badges:
     - name: Development Status
       image: 'https://img.shields.io/badge/Development%20Status-2%20--%20Pre--Alpha-yellow'
