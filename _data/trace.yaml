@@ -20,5 +20,5 @@
 
 - name: Benchmarking
   text: "A comprehensive benchmarking framework to assess different ML based lineage techniques."
-  image: "/img/"
+  image: "/img/benchmarking.jpg"
   url: 
