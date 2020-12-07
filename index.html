@@ -176,10 +176,10 @@ permalink: /
               </div>
               <h3 class="h4 mt-3 mb-4">{{ item.name }}</h3>
               <p>{{ item.text }}</p>
-              <p style="min-height: 1rem;" class="github-topics" data-owner="{{ item.github_repo }}" data-repo="{{ item.github_repo }}">
+              <p class="github-topics" data-owner="{{ item.github_repo }}" data-repo="{{ item.github_repo }}">
                 
               </p>
-              <p>
+              <p class="mb-0">
                 {% for badge in item.badges %}
                   <a href="{{badge.url}}" rel="nofollow" class="hoverable-i">
                     <img 
@@ -189,7 +189,7 @@ permalink: /
                 {% endfor %}
               </p>
             </div>
-            <div class="card-footer border-0 bg-transparent">
+            <div class="card-footer border-0 bg-transparent pt-0">
               <a href="{{ item.docs }}" class="mr-4 hoverable-i">
                 <img width="24" height="24" src="{{'/img/Libraries-Cards-Docs.svg' | relative_url }}" alt="{{ item.name }} Documentation">
               </a>
