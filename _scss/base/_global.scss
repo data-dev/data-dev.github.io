@@ -7,6 +7,11 @@ html {
 
 body {
   line-height: 1.6;
+  padding-top: 87px;
+
+  @include media-breakpoint-up(lg) {
+    padding-top: 0;
+  }
 }
 
 svg {
@@ -18,4 +23,8 @@ svg {
   right: 0;
   left: 0;
   bottom: 0;
+}
+
+.heading {
+  font-weight: 600;
 }

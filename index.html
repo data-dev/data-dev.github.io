@@ -5,7 +5,7 @@ permalink: /
 ---
 
 
-<section class="overflow-hidden  hero pt-4 pt-lg-7 white bg-primarylight">
+<section class="align-items-center bg-primarylight d-flex hero justify-content-center overflow-hidden">
   <div class="container h-100">
     <div class="row h-100 d-flex align-items-center py-6">
       <div class="col-lg-6 align-self-center">
@@ -23,12 +23,12 @@ permalink: /
   <div class="container-lg">
     <div class="row">
       <div class="col-auto">
-        <h1 class="pb-1 border-rust border-bottom w-auto">What is Data Tracer?</h1>
+        <h1 class="title-bordered w-auto heading h1">What is Data Tracer?</h1>
       </div>
     </div>
       <div class="row">
         <div class="col-12">
-          <p>
+          <p class="lead">
             The data tracer project aims at identifying metadata using machine learning. Where did the data come from, where did it go, what transforms happened, types, connections, are all what we aspire to identify. To develop these machine learning based methods, we develop several machine learning pipelines and make it easy for an end user to use. Explore our several open source libraries, testbeds, benchmarking frameworks, contribute and become part of the community. And most of all, try and give us feedback.
           </p>
         </div>
@@ -40,8 +40,8 @@ permalink: /
   <div class="container-lg">
     <div class="row">
       <div class="col-12">
-        <h2>Resources</h2>
-        <p>
+        <h2 class="h1 heading">Resources</h2>
+        <p class="lead mb-4">
           Explore docs, papers, videos, tutorials. Join our community slack.
         </p>
       </div>
@@ -53,13 +53,13 @@ permalink: /
         {% if item.url != '' %}
           <a href="{{ item.url }}" class="embed-responsive embed-responsive-1by1 rounded-lg bg-secondary overflow-hidden">
             <div class="embed-responsive-item d-flex justify-content-center">
-              <p class="h3 font-weight-normal text-white text-center align-self-center px-3">{{ item.name }}</p>
+              <p class="h3 font-weight-normal text-white text-center align-self-center px-3 mb-0">{{ item.name }}</p>
             </div>
           </a>
         {% else %}
           <div class="embed-responsive embed-responsive-1by1 rounded-lg bg-secondary overflow-hidden">
             <div class="embed-responsive-item d-flex justify-content-center">
-              <p class="h3 font-weight-normal text-white text-center align-self-center px-3">{{ item.name }}</p>
+              <p class="h3 font-weight-normal text-white text-center align-self-center px-3 mb-0">{{ item.name }}</p>
             </div>
           </div>
         {% endif %}
@@ -74,8 +74,8 @@ permalink: /
   <div class="container-lg">
     <div class="row">
       <div class="col-12">
-        <h2>Trace</h2>
-        <p>
+        <h2 class="h1 heading">Trace</h2>
+        <p class="mb-4 lead">
           Learn a variety of machine learning models and use them to trace data origins, link them and discover.
         </p>
       </div>
@@ -90,8 +90,8 @@ permalink: /
                 <div class="position-absolute is-overlay border border-secondary rounded-lg p-4">
                   <div class="d-flex flex-column justify-content-between h-100">
                     <div>
-                      <h3 class="text-danger">{{ item.name }}</h3>
-                      <p class="text-secondary">{{ item.text }}</p>
+                      <h3 class="text-danger font-weight-normal h3">{{ item.name }}</h3>
+                      <p class="text-secondary font-weight-light desc">{{ item.text }}</p>
                     </div>
                     <div class="d-flex align-items-center flex-grow-1">
                       <img class="w-75" src="{{ item.image | relative_url }}" alt="{{ item.name }}">
@@ -106,8 +106,8 @@ permalink: /
                 <div class="position-absolute is-overlay border border-secondary rounded-lg p-4">
                   <div class="d-flex flex-column justify-content-between h-100">
                     <div>
-                      <h3 class="text-danger">{{ item.name }}</h3>
-                      <p class="text-secondary">{{ item.text }}</p>
+                      <h3 class="text-danger font-weight-normal h3">{{ item.name }}</h3>
+                      <p class="text-secondary font-weight-light desc">{{ item.text }}</p>
                     </div>
                     <div class="d-flex align-items-center flex-grow-1">
                       <img class="w-75" src="{{ item.image | relative_url }}" alt="{{ item.name }}">
@@ -127,8 +127,8 @@ permalink: /
   <div class="container-lg">
     <div class="row">
       <div class="col-12">
-        <h2>Concepts</h2>
-        <p>
+        <h2 class="h1 heading">Concepts</h2>
+        <p class="mb-4 lead">
           Learn about different concepts that underpin Data Tracer, evaluation and usage through our tutorials.
         </p>
       </div>
@@ -139,13 +139,13 @@ permalink: /
         {% if item.url != '' %}
           <a href="{{ item.url }}" class="embed-responsive embed-responsive-1by1 rounded-lg bg-secondary overflow-hidden">
             <div class="embed-responsive-item d-flex justify-content-start">
-              <p class="text-white h5 mb-0 font-weight-normal align-self-center px-3">{{ item.name }}</p>
+              <p class="text-white mb-0 font-weight-normal align-self-center px-3 desc">{{ item.name }}</p>
             </div>
           </a>
           {% else %}
           <div class="embed-responsive embed-responsive-1by1 rounded-lg bg-secondary overflow-hidden">
             <div class="embed-responsive-item d-flex justify-content-start">
-              <p class="text-white h5 mb-0 font-weight-normal align-self-center px-3">{{ item.name }}</p>
+              <p class="text-white mb-0 font-weight-normal align-self-center px-3 desc">{{ item.name }}</p>
             </div>
           </div>
         {% endif %}  
@@ -160,43 +160,48 @@ permalink: /
   <div class="container-lg">
     <div class="row">
       <div class="col-12">
-        <h2>Libraries</h2>
-        <p>
+        <h2 class="h1 heading">Libraries</h2>
+        <p class="lead mb-4">
           Explore our open source libraries, contribute and become part of the community.
         </p>
       </div>
     </div>
-    <div class="row">
+    <div class="row justify-content-center justify-content-lg-start">
       {% for item in site.data.libraries %}
-        <div class="col-xl-3 col-md-4 mb-4 ">
-          <div class="card h-100 rounded-lg">
-            <div class="card-body">
+        <div class="col-auto mb-4" style="max-width: 334px;">
+          <div class="card h-100 rounded-0 card-shadow">
+            <div class="card-body pb-0">
               <div>
                 <img src="{{ item.logo | relative_url }}" alt="{{ item.name }}" style="width: 40px; height: 40px;">                
               </div>
-              <h3 class="h4 mt-3 mb-4">{{ item.name }}</h3>
-              <p>{{ item.text }}</p>
-              <p class="github-topics" data-owner="{{ item.github_repo }}" data-repo="{{ item.github_repo }}">
+              <p class="text-20 mt-3 mb-4">{{ item.name }}</p>
+              <p class="font-weight-light text-14">{{ item.text }}</p>
+              
+            </div>
+            
+            <div class="card-footer border-0 bg-transparent pt-0">
+              <p class="github-topics text-10 m-0" data-owner="{{ item.github_repo }}" data-repo="{{ item.github_repo }}">
                 
               </p>
-              <p class="mb-0">
+              <p class="mb-4" style="min-height: 75px;">
                 {% for badge in item.badges %}
-                  <a href="{{badge.url}}" rel="nofollow" class="hoverable-i">
+                  <a href="{{badge.url}}" rel="nofollow" class="hoverable-i text-10">
                     <img 
                     src="{{ badge.image }}" alt="Development Status" data-canonical-src="{{ badge.image }}" 
                     style="max-width:100%;">
                   </a>
                 {% endfor %}
               </p>
+              <p class="mb-0">
+                <a href="{{ item.github }}" class="mr-4 hoverable-i">
+                  <img width="17" height="17" src="{{'/img/Libraries-Cards-Github.svg' | relative_url }}" alt="{{ item.name }} Github repository">
+                </a>
+                <a href="{{ item.docs }}" class="mr-4 hoverable-i">
+                  <img width="17" height="17" src="{{'/img/Libraries-Cards-Docs.svg' | relative_url }}" alt="{{ item.name }} Documentation">
+                </a>
+              </p>
             </div>
-            <div class="card-footer border-0 bg-transparent pt-0">
-              <a href="{{ item.docs }}" class="mr-4 hoverable-i">
-                <img width="24" height="24" src="{{'/img/Libraries-Cards-Docs.svg' | relative_url }}" alt="{{ item.name }} Documentation">
-              </a>
-              <a href="{{ item.github }}" class="mr-4 hoverable-i">
-                <img width="24" height="24" src="{{'/img/Libraries-Cards-Github.svg' | relative_url }}" alt="{{ item.name }} Github repository">
-              </a>
-            </div>
+            
           </div>
         </div>
         {% endfor %}

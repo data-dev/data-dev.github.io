@@ -1,10 +1,15 @@
+// My vars
+$hero-gradient: linear-gradient(to right, #F58286, #F8AB96);
+
 $grid-breakpoints: (
   xs: 0,
   sm: 576px,
   md: 768px,
   lg: 992px,
   xl: 1200px,
-  xxl: 1400px
+  xxl: 1480px,
+  xxxl: 1700px,
+  xxxxl: 2200px,
 ) !default;
 
 $container-max-widths: (
@@ -12,7 +17,9 @@ $container-max-widths: (
   md: 720px,
   lg: 960px,
   xl: 1140px,
-  xxl: 1320px
+  xxl: 1404px,
+  xxxl: 1620px,
+  xxxxl: 1820px,
 ) !default;
 
 
@@ -54,6 +61,7 @@ $yellow:  #ffc107 !default;
 $green:   #198754 !default;
 $teal:    #20c997 !default;
 $cyan:    #0dcaf0 !default;
+$bg-light: #f3f5f7;
 
 // scss-docs-start colors-map
 $colors: (
@@ -72,17 +80,19 @@ $colors: (
   "gray-dark":  $gray-800
 ) !default;
 // scss-docs-end colors-map
+$text-color: #444B4C;
 
 $primary:       $blue !default;
-$secondary:     $gray-700 !default;
+$secondary:     $text-color !default;
 $success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
-$light:         $gray-100 !default;
+$light:         $bg-light !default;
 $dark:          $gray-800 !default;
 $lightblue:     #F2F8FE;
 $rust:     #411810;
+
 
 // scss-docs-start theme-colors-map
 $theme-colors: (
@@ -141,24 +151,32 @@ $display-font-sizes: (
   6: 2.5rem
 );
 
-$font-family-base: 'Helvetica Neue', sans-serif;
-// $font-family-alt: 'Nokia', sans-serif;
+$body-color: $text-color;
 
-// $headings-font-family:        $font-family-alt;
+$font-weight-light:           400 !default;
+$font-weight-normal:          500 !default;
+$font-weight-bold:            600 !default;
+
+$font-weight-base:            $font-weight-light;
+
+$font-family-base: "HelveticaNeue", sans-serif;
 
 $font-size-base:              1rem !default; // Assumes the browser default, typically `16px`
-// $h1-font-size:                $font-size-base * 2.5;
-// $h2-font-size:                $font-size-base * 1.85;
-// $h3-font-size:                $font-size-base * 1.75 !default;
-// $h4-font-size:                $font-size-base * 1.5 !default;
-// $h5-font-size:                $font-size-base * 1.25 !default;
-// $h6-font-size:                $font-size-base !default;
+$h1-font-size:                $font-size-base * 1.87;
+$h2-font-size:                $font-size-base * 1.6;
+$h3-font-size:                $font-size-base * 1.5 !default;
+$h4-font-size:                $font-size-base * 1.4 !default;
+$h5-font-size:                $font-size-base * 1.3 !default;
+$h6-font-size:                $font-size-base !default;
 
+
+
+$headings-font-weight:        bold;
 
 $navbar-brand-font-size: 26;
 $navbar-padding-y:                  $spacer;
 
-$lead-font-size: 18px;
+$lead-font-size:              1.0625rem;
 
 $badge-font-weight:             400;
 
@@ -207,6 +225,6 @@ $input-height:  70px;
 $navbar-light-color:                rgba($black, .75);
 $navbar-nav-link-padding-x: 1rem;
 
-$card-spacer-y: 1.5rem;
-$card-spacer-x: 1.5rem;
-$grid-gutter-width: 1.5rem;
+$grid-columns:                12 !default;
+$grid-gutter-width:           1.875rem !default;
+$grid-row-columns:            6 !default;

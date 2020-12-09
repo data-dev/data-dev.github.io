@@ -1,0 +1,35 @@
+// @font-face {
+//   font-family: "HelveticaNeueLt";
+//   src: url("../fonts/HelveticaNeueLt.ttf") format("truetype");
+// }
+
+// @font-face {
+//   font-family: "HelveticaNeueLtBold";
+//   src: url("../fonts/HelveticaNeuBold.ttf") format("truetype");
+// }
+
+
+
+// New Fonts
+
+@font-face {
+  font-family: "HelveticaNeue";
+  src: url("../fonts/HelveticaNeueLt.ttf") format("truetype"); /* Modern Browsers */
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "HelveticaNeue";
+  src: url("../fonts/HelveticaNeue Medium.ttf") format("truetype"); /* Modern Browsers */
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "HelveticaNeue";
+
+  src: url("../fonts/HelveticaNeuBold.ttf") format("truetype"); /* Modern Browsers */
+  font-weight: 600;
+  font-style: normal;
+}

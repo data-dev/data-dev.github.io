@@ -1,9 +1,11 @@
 .hero {
   background-image: linear-gradient(to right, #F58286, #F8AB96);
-  // background-image: url(/img/banner-01.png);
-  height: 670px;
   background-size: cover;
   background-position: right;
+
+  @include media-breakpoint-up(lg) {
+    min-height: 670px;
+  }
 }
 
 .hero-bg {
@@ -12,6 +14,7 @@
 
 .trace-item {
   transition: all 200ms ease;
+  background-color: rgba(255, 255, 255, 0.5);
   &:hover {
     background-color: white;
   }
@@ -27,6 +30,14 @@
 
 .topic-link {
   font-weight: 400;
-  font-size: .75rem;
-  padding: .2rem .7rem
+  line-height: 1;
+  padding: 0.3rem 0.6rem;
+}
+
+.card-shadow {
+  box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.05)
+}
+
+.title-bordered {
+  border-bottom: 2px solid $rust;
 }
