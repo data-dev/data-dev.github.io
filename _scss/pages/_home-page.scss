@@ -3,23 +3,19 @@
   background-size: cover;
   background-position: right;
 
-  @include media-breakpoint-up(lg) {
+  @include media-breakpoint-up(xxl) {
     min-height: 670px;
   }
-  @include media-breakpoint-up(xl) {
-    min-height: 720px;
-  }
-  @include media-breakpoint-up(xxl) {
+
+  @include media-breakpoint-up(xxxl) {
     min-height: 770px;
   }
-  @include media-breakpoint-up(xxl) {
-    min-height: 820px;
-  }
+
 }
 
 section {
   .wrap {
-    @include media-breakpoint-up(xxl) {
+    @include media-breakpoint-up(xxxl) {
       padding-top: 5%;
       padding-bottom: 5%;
     }
