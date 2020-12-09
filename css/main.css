@@ -13825,6 +13825,24 @@ svg {
   }
 }
 
+@media (min-width: 1200px) {
+  .hero {
+    min-height: 720px;
+  }
+}
+
+@media (min-width: 1480px) {
+  .hero {
+    min-height: 770px;
+  }
+}
+
+@media (min-width: 1480px) {
+  .hero {
+    min-height: 820px;
+  }
+}
+
 .hero-bg {
   background-image: linear-gradient(to right, #F58286, #F8AB96);
 }

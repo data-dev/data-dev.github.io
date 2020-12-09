@@ -6,6 +6,15 @@
   @include media-breakpoint-up(lg) {
     min-height: 670px;
   }
+  @include media-breakpoint-up(xl) {
+    min-height: 720px;
+  }
+  @include media-breakpoint-up(xxl) {
+    min-height: 770px;
+  }
+  @include media-breakpoint-up(xxl) {
+    min-height: 820px;
+  }
 }
 
 .hero-bg {
