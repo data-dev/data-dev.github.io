@@ -13831,13 +13831,6 @@ svg {
   }
 }
 
-@media (min-width: 1700px) {
-  section .wrap {
-    padding-top: 5%;
-    padding-bottom: 5%;
-  }
-}
-
 .hero-bg {
   background-image: linear-gradient(to right, #F58286, #F8AB96);
 }
@@ -13872,6 +13865,16 @@ svg {
 
 .title-bordered {
   border-bottom: 2px solid #411810;
+}
+
+@media (max-width: 1699.98px) {
+  .concept-item {
+    min-width: 210px;
+  }
+}
+
+.lib-item {
+  width: 334px;
 }
 
 /* Layout */
@@ -13960,6 +13963,9 @@ svg {
   body .h3 {
     font-size: 1.5625rem;
   }
+  body .h4 {
+    font-size: 1.35rem;
+  }
   body .lead {
     font-size: 1.65rem;
   }
@@ -13977,6 +13983,9 @@ svg {
   }
   body .h3 {
     font-size: 2.125rem;
+  }
+  body .h4 {
+    font-size: 1.5625rem;
   }
   body .lead {
     font-size: 1.625rem;
