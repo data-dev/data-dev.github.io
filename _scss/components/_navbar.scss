@@ -2,20 +2,12 @@
 .navbar {
   transition: background-color 250ms ease-in-out;
   .nav-bg-white & {
-    background-color: #fff;
+    background: $hero-gradient;
     box-shadow: 6px 3px 12px rgba(68, 68, 68, 0.05)
   }
   
   @include media-breakpoint-down(lg) { 
-    background-color: #fff;
+    background: $hero-gradient;
   }
-}
-
-.logo {
-  transition: all 250ms ease-in-out;
-  .nav-bg-white & {
-    // width: 128px;
-  }
-
 }
 /* purgecss end ignore */
