@@ -3,6 +3,11 @@
   background-size: cover;
   background-position: right;
 
+
+  @include media-breakpoint-up(xl) {
+    min-height: 620px;
+  }
+
   @include media-breakpoint-up(xxl) {
     min-height: 670px;
   }
@@ -11,15 +16,6 @@
     min-height: 770px;
   }
 
-}
-
-section {
-  .wrap {
-    @include media-breakpoint-up(xxxl) {
-      // padding-top: 10rem;
-      // padding-bottom: 10rem;
-    }
-  }
 }
 
 .hero-bg {
@@ -64,4 +60,9 @@ section {
 
 .lib-item {
   width: 334px;
+}
+
+.hero-logo {
+
+  min-width: 236px;
 }

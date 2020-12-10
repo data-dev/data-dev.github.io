@@ -1,5 +1,6 @@
 /* purgecss start ignore */
 .navbar {
+  min-height: 87px;
   transition: background-color 250ms ease-in-out;
   .nav-bg-white & {
     background: $hero-gradient;
@@ -18,6 +19,20 @@
       font-size: 2rem !important; 
     }
   }
+}
+
+.navbar-brand {
+  left: 16px;
+  top: 16px;
+  @include media-breakpoint-up(lg) { 
+    left: 32px;
+  }
+}
+
+.navbar-toggler  {
+  right: 16px;
+  top: 16px;
+  z-index: 3;
 }
 
 /* purgecss end ignore */

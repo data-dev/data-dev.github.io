@@ -9,7 +9,7 @@ body {
   line-height: 1.6;
   padding-top: 87px;
 
-  @include media-breakpoint-up(lg) {
+  @include media-breakpoint-up(xl) {
     padding-top: 0;
   }
 }

@@ -13765,7 +13765,7 @@ body {
   padding-top: 87px;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   body {
     padding-top: 0;
   }
@@ -13817,6 +13817,12 @@ svg {
   background-image: linear-gradient(to right, #F58286, #F8AB96);
   background-size: cover;
   background-position: right;
+}
+
+@media (min-width: 1200px) {
+  .hero {
+    min-height: 620px;
+  }
 }
 
 @media (min-width: 1480px) {
@@ -13877,6 +13883,10 @@ svg {
   width: 334px;
 }
 
+.hero-logo {
+  min-width: 236px;
+}
+
 /* Layout */
 .footer {
   background-color: #E7ECFF;
@@ -13889,6 +13899,7 @@ svg {
 /* Components */
 /* purgecss start ignore */
 .navbar {
+  min-height: 87px;
   transition: background-color 250ms ease-in-out;
 }
 
@@ -13913,6 +13924,23 @@ svg {
   .navbar .nav-link {
     font-size: 2rem !important;
   }
+}
+
+.navbar-brand {
+  left: 16px;
+  top: 16px;
+}
+
+@media (min-width: 992px) {
+  .navbar-brand {
+    left: 32px;
+  }
+}
+
+.navbar-toggler {
+  right: 16px;
+  top: 16px;
+  z-index: 3;
 }
 
 /* purgecss end ignore */
