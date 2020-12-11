@@ -13887,6 +13887,10 @@ svg {
   min-width: 236px;
 }
 
+.min-height {
+  min-height: calc(100vh - 309px - 25px);
+}
+
 /* Layout */
 .footer {
   background-color: #E7ECFF;
