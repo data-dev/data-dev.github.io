@@ -5,15 +5,15 @@
 
 
   @include media-breakpoint-up(xl) {
-    min-height: 620px;
+    min-height: 500px;
   }
 
   @include media-breakpoint-up(xxl) {
-    min-height: 670px;
+    min-height: 640px;
   }
 
   @include media-breakpoint-up(xxxl) {
-    min-height: 770px;
+    min-height: 670px;
   }
 
 }
@@ -65,4 +65,8 @@
 .hero-logo {
 
   min-width: 236px;
+}
+
+.min-height {
+  min-height: calc(100vh - 309px - 25px );
 }

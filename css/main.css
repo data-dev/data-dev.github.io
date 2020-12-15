@@ -13821,19 +13821,19 @@ svg {
 
 @media (min-width: 1200px) {
   .hero {
-    min-height: 620px;
+    min-height: 500px;
   }
 }
 
 @media (min-width: 1480px) {
   .hero {
-    min-height: 670px;
+    min-height: 640px;
   }
 }
 
 @media (min-width: 1700px) {
   .hero {
-    min-height: 770px;
+    min-height: 670px;
   }
 }
 
